@@ -1,91 +1,45 @@
-# Privacy Policy — Zifka Habits
+# Zifka One — Privacy Policy
 
-**Last updated:** July 6, 2026
+**Effective date:** 2026-08-22
+**Last updated:** 2026-11-10
+**Applies to:** Zifka Budget, Zifka Subs and Zifka Habits
 
-## 1. Data Controller
+## 1. Responsible publisher and scope
 
-Zifka Habits is developed and published by **Zifka** ("we", "our", or "us"). We respect your privacy and are committed to protecting your personal data in accordance with the EU General Data Protection Regulation (GDPR) and the Swiss Federal Act on Data Protection (nFADP).
+Saribot SAS, Bogotá, Colombia, publishes these apps. Contact **privacy@zifka.com** for privacy requests and **legal@zifka.com** for legal matters. You do not need a Zifka account to keep your records. If you email us, we receive the address, message and attachments you choose to send; please do not send passwords, payment-card details or banking records.
 
-For any privacy-related request, contact us at **privacy@zifka.com**.
+## 2. Records stored on your device
 
-## 2. Data We Collect
+Budget stores accounts, transactions, budgets and goals; Subs stores recurring services, prices, dates and reminders; Habits stores habits, completions, streaks and local profile preferences. We do not operate a cloud-sync backend for these records. Exporting, sharing or sending a support message can disclose the data you select to a recipient you choose.
 
-### 2.1 Data You Create (stored on your device)
-- Habit names, icons, categories, frequencies and completion dates
-- Streaks, achievements and progress
-- App settings and preferences (theme, language, notification schedules)
-- Encrypted backup files that you create voluntarily
+On Android, installed Zifka companion apps can exchange compact summaries through providers that check package and signing identity. This can include balances, subscription totals or habit streaks. Each app retains its own keys and storage. Cross-app reading on iOS is disabled until an authenticated channel exists; a widget's app group is private to its own app.
 
-### 2.2 Data We DO NOT Collect
-- We do NOT collect your name, email or account credentials to use the app
-- We do NOT track your location
-- We do NOT sell, rent or trade your personal data
-- We do NOT use advertising or third-party analytics trackers
+## 3. Storage, encryption and backups
 
-## 3. Legal Basis for Processing (GDPR Art. 6)
+Budget and Subs use encrypted Hive databases. Habits uses Isar with encryption of selected user-authored fields; the whole Isar database is not encrypted by that field cipher. Vault snapshots are separately encrypted. Encryption keys use platform secure storage, including Android Keystore or iOS Keychain where supported; we do not claim every key is held in Secure Enclave or every file is encrypted.
 
-- **Performance of a contract:** to provide the app's core features you requested.
-- **Consent:** for optional device permissions (camera, calendar, health, Face ID) and local notifications. You may withdraw consent at any time in your device settings.
-- **Legitimate interest:** to keep the app secure and functioning correctly.
+Preferences, database metadata, local diagnostics and ordinary CSV/PDF/JSON exports do not all have application-level encryption. Choose an encrypted backup when that option is offered and protect its password. Copies exported to your files, clipboard, cloud drive or other apps remain under those services' controls. Deleting local app data cannot erase copies already shared elsewhere.
 
-## 4. Local Storage and Encryption
+## 4. Purchases and RevenueCat
 
-- All habit data is stored **locally** on your device using the Isar database.
-- Backups are encrypted with **AES-256-GCM** before they leave the app.
-- Your data never reaches our servers. We operate no cloud backend that holds your habit data.
-- Data remains on your device until you delete it or uninstall the app.
+Apple or Google processes payment under its own policy. We do not receive your full payment-card details. RevenueCat processes purchase/receipt history, entitlement state and a pseudonymous app-user identifier to validate and restore access; its SDK also handles technical request information. Pseudonymous does not mean that no personal data is processed. Configured SDKs may communicate on initialization, entitlement refresh, purchase or restoration, not only when you press Pay. RevenueCat's dashboard includes purchase analytics; this is distinct from uploading your financial or habit records.
 
-## 5. Device Permissions and Their Purpose
+We do not set advertising IDs or personal contact attributes in the reviewed app code. Store and RevenueCat settings can affect processing. See **https://www.revenuecat.com/privacy** and the privacy policies of your app store. We do not sell your records or use an advertising SDK to build advertising profiles.
 
-All permissions are **optional** and requested only when you use the related feature:
+## 5. Diagnostics and permissions
 
-- **Notifications:** to deliver local habit reminders. Scheduled entirely on-device.
-- **Camera:** only if you choose to attach a photo to a habit or entry.
-- **Calendar:** only to sync habit reminders with your calendar, if you enable it.
-- **Health data:** only to read/write metrics for health-related habits you configure.
-- **Face ID / biometrics:** only to lock the app locally. Biometric data never leaves your device and is handled by the operating system.
+The current shared analytics client writes only to the debug console in debug builds; it has no configured product-analytics upload backend. CrashReportService keeps a bounded local diagnostic log. You can view, copy or clear it; copying/sharing it or emailing support is your choice. There is no automatic opt-in crash-upload service in the reviewed release code.
 
-## 6. Third-Party Services
+Notifications and exact-alarm/background scheduling support reminders; permission and availability depend on your OS. Optional app lock uses the OS biometric result, not a fingerprint or face template received by us. Imported/exported files are selected through system file controls. We do not claim a camera, calendar or health-service integration merely because a schema or usage-description string exists.
 
-We share the minimum necessary data with:
+**Budget voice entry is optional:** microphone/speech permission invokes the operating system's recognition service. Depending on the device, language, provider and settings, audio may be processed remotely by that service. It is not guaranteed to stay offline. You may deny this permission and enter transactions manually. Habits and Subs do not offer this voice-entry feature.
 
-- **RevenueCat:** manages in-app subscription status. It processes a pseudonymous purchase identifier, not your habit data. See RevenueCat's privacy policy.
-- **Apple App Store / Google Play (In-App Purchases):** process payments and manage subscriptions under their own privacy policies.
+## 6. Choices, retention and deletion requests
 
-We do **not** share your habit data with any third party.
+You can inspect, edit and export your records in the app and use **Delete all data** to clear its local records and reset local state. Review exported copies separately. Local app deletion does not delete store transaction records or the customer/receipt records held by RevenueCat, and does not cancel a legacy subscription or request a refund.
 
-## 7. Your Rights
+For access, correction, deletion or other applicable data rights, contact **privacy@zifka.com**. State the app, platform and request; if needed we will ask for minimal information to locate and verify the relevant purchase/customer record. We coordinate applicable requests with RevenueCat as our service provider rather than telling you that no server data exists. Store records, support correspondence and information needed for legal obligations, fraud prevention or disputes may need separate handling or retention; we will explain applicable limits. You may also contact your competent data-protection authority. No fixed universal retention period or instant erasure of third-party records is promised.
 
-Under the GDPR and nFADP you have the right to:
-- **Access** your data (use the in-app export feature)
-- **Rectify** inaccurate data
-- **Erase** your data (clear data in settings or uninstall the app)
-- **Data portability** (export to JSON/CSV)
-- **Object to** or **restrict** processing
-- **Withdraw consent** at any time
+## 7. Children, changes and contact
 
-To exercise these rights, contact **privacy@zifka.com**. You may also lodge a complaint with your local data protection authority (in Switzerland, the FDPIC).
-
-## 8. Data Retention
-
-- **Local data:** retained on your device until you delete it or uninstall the app.
-- **Backups:** retained wherever you choose to store them, under your control.
-- **Purchase records:** held by Apple, Google and RevenueCat per their legal and tax obligations.
-
-## 9. Children's Privacy
-
-Zifka Habits is not directed at children. We do not knowingly collect personal data from children under 13 (or under 16 where required by local law). If you believe a child has provided us with data, contact **privacy@zifka.com** and we will delete it.
-
-## 10. Changes to This Policy
-
-We may update this Privacy Policy. Material changes will be indicated by updating the "Last updated" date. The current version is always available at **https://zifka.com/habits/privacy**.
-
-## 11. Contact
-
-- **Privacy / GDPR:** privacy@zifka.com
-- **Support:** support@zifka.com
-- **Policy URL:** https://zifka.com/habits/privacy
-
----
-
-© 2026 Zifka. All rights reserved.
+These apps are intended for adults and are not directed at children. Contact **privacy@zifka.com** about a child's data or any privacy concern. We will update this policy and its date when data handling changes. The policies are available inside the apps and at **https://darsantiago.github.io/zifka-legal/**. Saribot SAS, Bogotá, Colombia; privacy requests: **privacy@zifka.com**; legal requests: **legal@zifka.com**.

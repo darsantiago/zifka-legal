@@ -1,62 +1,35 @@
-# Terms of Service — Zifka Habits
+# Zifka One — Terms of Service
 
-**Last updated:** July 6, 2026
+**Effective date:** 2026-08-22
+**Last updated:** 2026-11-10
+**Applies to:** Zifka Budget, Zifka Subs and Zifka Habits
 
-## 1. Acceptance of Terms
+## 1. Publisher and license
 
-By using Zifka Habits ("the app"), published by **Zifka**, you agree to these Terms of Service. If you do not agree, please do not use the app.
+Saribot SAS, Bogotá, Colombia, publishes the apps. By using them you agree to these terms, subject to mandatory consumer rights. We grant a personal, non-exclusive license for the purchased functionality on devices and family accounts permitted by your store. Do not misuse the apps, infringe intellectual-property rights or bypass access controls. Statutory rights that cannot be waived remain unaffected.
 
-## 2. License to Use
+## 2. Seven-day local trial
 
-We grant you a personal, limited, non-exclusive, non-transferable and revocable license to use Zifka Habits on devices you own or control, for your own personal, non-commercial use.
+On first installation the app offers **7 days** of unlocked access without a Zifka account, payment card or automatic charge. When that local trial ends without purchase, the app enters read-only mode: your saved records remain viewable and CSV/PDF export remains free. The local trial does not start an automatically renewing store subscription.
 
-You agree not to:
-- Use the app for any unlawful purpose
-- Reverse engineer, decompile or modify the app
-- Attempt to gain unauthorized access to any part of the service
-- Resell, redistribute or share paid features with others
+## 3. Current purchases and existing entitlements
 
-## 3. Subscriptions and Automatic Renewal
+New offers are **one-time lifetime purchases**: **USD $9.99** for one app's Pro access or **USD $19.99** for the Zifka One three-app suite. Local store currency, tax, availability and the final confirmation price can differ; the store's displayed price applies. Family Sharing for the suite depends on store/platform support and configured eligibility. An individual Pro purchase does not by itself unlock the other apps.
 
-- Premium features are available through an auto-renewing subscription, offered on a monthly or annual basis.
-- Subscriptions are sold and billed through the **Apple App Store** or **Google Play Store**, and managed by **RevenueCat**.
-- The price is shown before you confirm the purchase. Payment is charged to your store account upon confirmation.
-- Subscriptions **renew automatically** unless you turn off auto-renewal at least 24 hours before the end of the current period.
-- Manage or cancel your subscription at any time in your **App Store** or **Google Play** account settings. Cancellation stops future charges; access continues until the end of the paid period.
+Lifetime means a one-time license to the purchased functionality, not a promise of perpetual compatibility with every future device or OS, all future products or an external service's indefinite operation. It creates no new recurring charge. Legacy monthly/annual entitlements already acquired remain eligible for verification and restoration; **new monthly/annual plans are not offered**. Manage an existing renewing subscription and its cancellation in the original store; deleting the app or its local data does not cancel it.
 
-## 4. Free Trial
+## 4. Billing, restoration and refunds
 
-If a free trial is offered, it converts to a paid subscription unless cancelled before the trial ends. Any unused portion of a free trial is forfeited when you purchase a subscription.
+Apple App Store or Google Play processes payment; RevenueCat verifies purchase access. Restore with the original store account where the store permits it. Refunds and existing subscription cancellation follow the applicable store procedures and mandatory consumer law; contact **legal@zifka.com** if you need assistance. These terms do not remove statutory refund, withdrawal or other non-waivable rights.
 
-## 5. Refunds
+## 5. Your records and third-party services
 
-Refunds are handled by **Apple** or **Google** according to the policies of the App Store or Google Play. We cannot directly issue refunds for purchases made through these stores. Consumers in the EU/EEA may have additional statutory withdrawal rights.
+You retain rights to your records. Maintain backups and check exports before deleting data or changing devices. Not every export is encrypted. See the Privacy Policy for local storage, selected field encryption, RevenueCat records, diagnostics and optional system speech processing. Sharing a file, using an external link or contacting support may disclose data you choose to send. Cancellation assistance for a tracked service does not cancel your contract with that provider.
 
-## 6. Intellectual Property
+## 6. Informational tools and limits
 
-The app, including its code, design, graphics, logos and trademarks, is owned by **Zifka** and protected by intellectual property laws. You retain all rights to the habit data you create; you grant us only the limited rights needed to operate the app's features on your device.
+SafeSpend, forecasts, subscription alerts and habit insights are organization tools, not financial, investment, tax, legal or medical advice. We do not guarantee a financial or health outcome. Availability and operation depend on the supported app, device, OS and external stores/services. To the extent permitted by law, the apps are supplied as available; no exclusion here limits mandatory warranties or liability that cannot lawfully be excluded, including fraud or intentional misconduct. Protect and back up your records.
 
-## 7. Disclaimer of Warranties
+## 7. Changes, applicable law and contact
 
-The app is provided **"as is"** and **"as available"**, without warranties of any kind. We do not guarantee uninterrupted, error-free operation or any specific results. Zifka Habits is a productivity tool and is **not** medical advice; consult a qualified professional for health matters.
-
-## 8. Limitation of Liability
-
-To the maximum extent permitted by law, Zifka shall not be liable for any indirect, incidental, or consequential damages, including data loss. Our total liability shall not exceed the amount you paid for the app in the 12 months preceding the claim. Please keep regular backups.
-
-## 9. Governing Law
-
-These Terms are governed by the laws of Switzerland, without regard to conflict-of-law rules, and subject to any mandatory consumer protection laws of your country of residence.
-
-## 10. Changes to These Terms
-
-We may update these Terms from time to time. Continued use after changes take effect constitutes acceptance of the updated Terms.
-
-## 11. Contact
-
-- **Support:** support@zifka.com
-- **Privacy:** privacy@zifka.com
-
----
-
-© 2026 Zifka. All rights reserved.
+Material changes will be reflected in the updated date and available in-app or at **https://darsantiago.github.io/zifka-legal/**. Mandatory notice and consumer rights remain applicable. Colombian law applies subject to non-waivable protections and jurisdiction rights in your place of residence. Questions: **legal@zifka.com**. Privacy and data requests: **privacy@zifka.com**. Publisher: Saribot SAS, Bogotá, Colombia.

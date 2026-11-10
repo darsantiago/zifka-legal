@@ -1,91 +1,33 @@
-# Datenschutzerklärung — Zifka Habits
+# Datenschutzerklärung — Zifka One
 
-**Zuletzt aktualisiert:** 6. Juli 2026
+**Aktualisiert: 2026-11-10. Gilt für Budget, Subs und Habits.**
 
-## 1. Verantwortlicher
+## 1. Verantwortlicher und lokale Daten
 
-Zifka Habits wird von **Zifka** („wir" oder „die App") entwickelt und herausgegeben. Wir achten Ihre Privatsphäre und schützen Ihre personenbezogenen Daten gemäß der Datenschutz-Grundverordnung der EU (DSGVO) und dem Schweizer Bundesgesetz über den Datenschutz (revDSG).
+Herausgeber ist Saribot SAS, Bogotá, Kolumbien. Ein Zifka-Konto ist nicht erforderlich. Budget speichert Konten, Buchungen und Budgets; Subs wiederkehrende Dienste und Erinnerungen; Habits Gewohnheiten, Erledigungen, Serien und Einstellungen. Wir betreiben keinen Cloud-Synchronisationsserver für diese Einträge. Beim Exportieren, Teilen oder Kontaktieren des Supports bestimmen Sie Empfänger und übermittelte Daten.
 
-Für datenschutzbezogene Anfragen erreichen Sie uns unter **privacy@zifka.com**.
+## 2. Schutz und Sicherungen
 
-## 2. Welche Daten wir erheben
+Budget und Subs verwenden verschlüsselte Hive-Datenbanken. Habits verwendet Isar mit Verschlüsselung ausgewählter Felder, nicht der gesamten Datenbank. Vault-Snapshots werden separat verschlüsselt. Schlüssel liegen im sicheren Plattformspeicher, etwa Android Keystore oder iOS Keychain; Secure Enclave wird nicht für jeden Schlüssel garantiert. Einstellungen, Metadaten, lokale Diagnoseprotokolle und normale CSV/PDF/JSON-Exporte sind nicht sämtlich auf Anwendungsebene verschlüsselt. Wählen Sie, soweit angeboten, eine verschlüsselte Sicherung und schützen Sie deren Passwort. Bereits exportierte Kopien unterliegen den gewählten Diensten und Empfängern.
 
-### 2.1 Von Ihnen erstellte Daten (auf Ihrem Gerät gespeichert)
-- Namen, Symbole, Kategorien, Häufigkeiten und Abschlussdaten von Gewohnheiten
-- Serien, Erfolge und Fortschritt
-- Einstellungen und Präferenzen (Design, Sprache, Erinnerungszeiten)
-- Verschlüsselte Sicherungsdateien, die Sie freiwillig erstellen
+## 3. Zusammenfassungen zwischen Apps
 
-### 2.2 Daten, die wir NICHT erheben
-- Wir erheben KEINEN Namen, keine E-Mail und keine Kontodaten zur Nutzung der App
-- Wir verfolgen NICHT Ihren Standort
-- Wir verkaufen, vermieten oder handeln NICHT mit Ihren personenbezogenen Daten
-- Wir nutzen KEINE Werbe- oder Drittanbieter-Analyse-Tracker
+Installierte Zifka-Apps können unter Android Zusammenfassungen zu Guthaben, Abonnements und Gewohnheiten über Provider austauschen, die Paket und Signatur prüfen. Jede App behält eigene Schlüssel und Speicher. Unter iOS ist das Lesen zwischen Apps bis zu einem authentifizierten Kanal deaktiviert; die Widget-Gruppe gehört nur ihrer jeweiligen App.
 
-## 3. Rechtsgrundlage der Verarbeitung (Art. 6 DSGVO)
+## 4. Käufe und externe Dienste
 
-- **Vertragserfüllung:** zur Bereitstellung der von Ihnen angeforderten Kernfunktionen.
-- **Einwilligung:** für optionale Geräteberechtigungen (Kamera, Kalender, Gesundheit, Face ID) und lokale Benachrichtigungen. Sie können Ihre Einwilligung jederzeit in den Geräteeinstellungen widerrufen.
-- **Berechtigtes Interesse:** um die App sicher und funktionsfähig zu halten.
+Apple oder Google wickelt Zahlungen ab. Wir erhalten keine vollständige Kartennummer. RevenueCat verarbeitet Kaufverlauf und Belege, Zugangsberechtigungen, eine pseudonyme App-Nutzerkennung und technische Anfragedaten. Verbindungen können bei Initialisierung, Berechtigungsaktualisierung, Kauf oder Wiederherstellung entstehen. Pseudonym bedeutet nicht, dass keine personenbezogenen Daten verarbeitet werden. RevenueCat bietet Kaufanalysen; Ihre Finanz- oder Gewohnheitseinträge werden deshalb nicht hochgeladen. Der geprüfte Code setzt bei RevenueCat keine Werbekennungen oder Kontaktattribute. Siehe https://www.revenuecat.com/privacy und die Richtlinien Ihres Stores. Wir verkaufen Ihre Einträge nicht und verwenden kein Werbe-SDK zur Erstellung von Werbeprofilen.
 
-## 4. Lokale Speicherung und Verschlüsselung
+## 5. Diagnose und Berechtigungen
 
-- Alle Gewohnheitsdaten werden **lokal** auf Ihrem Gerät in der Isar-Datenbank gespeichert.
-- Sicherungen werden mit **AES-256-GCM** verschlüsselt, bevor sie die App verlassen.
-- Ihre Daten erreichen niemals unsere Server. Wir betreiben kein Cloud-Backend, das Ihre Gewohnheitsdaten speichert.
-- Die Daten verbleiben auf Ihrem Gerät, bis Sie sie löschen oder die App deinstallieren.
+Der aktuelle Analytics-Client schreibt nur in Debug-Builds in die Konsole; ein Upload-Dienst für Produktanalysen ist nicht eingerichtet. CrashReportService hält ein begrenztes lokales Protokoll, das Sie ansehen, kopieren oder löschen können. Es gibt keinen automatischen Opt-in-Absturz-Upload. Teilen oder Senden an den Support entscheiden Sie selbst. Benachrichtigungen und Alarme dienen Erinnerungen. Die biometrische Sperre erhält nur das Systemergebnis, keine Fingerabdrücke oder Gesichtsvorlagen. Dateien werden über Systemdialoge gewählt. Eine Berechtigungsbeschreibung oder ein Datenmodell bedeutet keine vorhandene Kamera-, Kalender- oder Gesundheitsintegration.
 
-## 5. Geräteberechtigungen und ihr Zweck
+Die optionale Spracheingabe gibt es nur in Budget. Sie verwendet Mikrofon und System-Spracherkennung. Der Anbieter kann Audio je nach Gerät, Sprache und Einstellungen online verarbeiten; vollständig lokale Verarbeitung wird nicht garantiert. Sie können die Berechtigung ablehnen und Buchungen manuell eingeben.
 
-Alle Berechtigungen sind **optional** und werden nur angefordert, wenn Sie die zugehörige Funktion nutzen:
+## 6. Rechte, Aufbewahrung und Löschung
 
-- **Benachrichtigungen:** für lokale Erinnerungen, die vollständig auf dem Gerät geplant werden.
-- **Kamera:** nur wenn Sie ein Foto zu einer Gewohnheit oder einem Eintrag hinzufügen möchten.
-- **Kalender:** nur zur Synchronisierung von Erinnerungen mit Ihrem Kalender, sofern aktiviert.
-- **Gesundheitsdaten:** nur zum Lesen/Schreiben von Metriken für von Ihnen konfigurierte Gesundheitsgewohnheiten.
-- **Face ID / Biometrie:** nur zum lokalen Sperren der App. Biometrische Daten verlassen Ihr Gerät nie und werden vom Betriebssystem verwaltet.
+Sie können Einträge ansehen, berichtigen und exportieren. „Alle Daten löschen“ entfernt den lokalen Zustand, nicht externe Kopien, Store- oder RevenueCat-Datensätze; es kündigt kein früheres Abonnement und beantragt keine Erstattung. Für Auskunft, Berichtigung, Löschung oder weitere anwendbare Rechte schreiben Sie mit App, Plattform und Anliegen an privacy@zifka.com. Wir fragen nur die zur Zuordnung und Prüfung nötigen Mindestangaben ab und koordinieren erforderliche Schritte mit RevenueCat. Store-, Support-, gesetzliche, Betrugspräventions- oder Streitfalldaten können gesonderter Behandlung oder Aufbewahrung unterliegen; wir erläutern die Grenzen. Sie können sich an Ihre zuständige Datenschutzbehörde wenden. Eine weltweit einheitliche Aufbewahrungsfrist oder sofortige Löschung bei Dritten wird nicht zugesagt.
 
-## 6. Dienste von Drittanbietern
+## 7. Kontakt und Änderungen
 
-Wir geben nur die minimal erforderlichen Daten weiter an:
-
-- **RevenueCat:** verwaltet den Status von In-App-Abonnements. Es verarbeitet eine pseudonyme Kauf-ID, nicht Ihre Gewohnheitsdaten. Siehe die Datenschutzerklärung von RevenueCat.
-- **Apple App Store / Google Play (In-App-Käufe):** verarbeiten Zahlungen und verwalten Abonnements nach ihren eigenen Datenschutzrichtlinien.
-
-Wir geben Ihre Gewohnheitsdaten an **keinen** Dritten weiter.
-
-## 7. Ihre Rechte
-
-Nach DSGVO und revDSG haben Sie das Recht auf:
-- **Auskunft** über Ihre Daten (nutzen Sie die Exportfunktion der App)
-- **Berichtigung** unrichtiger Daten
-- **Löschung** Ihrer Daten (Daten in den Einstellungen löschen oder App deinstallieren)
-- **Datenübertragbarkeit** (Export als JSON/CSV)
-- **Widerspruch** gegen oder **Einschränkung** der Verarbeitung
-- **Widerruf der Einwilligung** jederzeit
-
-Zur Ausübung dieser Rechte schreiben Sie an **privacy@zifka.com**. Sie können sich auch bei Ihrer Datenschutzbehörde beschweren (in der Schweiz beim EDÖB).
-
-## 8. Speicherdauer
-
-- **Lokale Daten:** verbleiben auf Ihrem Gerät, bis Sie sie löschen oder die App deinstallieren.
-- **Sicherungen:** verbleiben dort, wo Sie sie speichern, unter Ihrer Kontrolle.
-- **Kaufdatensätze:** werden von Apple, Google und RevenueCat gemäß deren gesetzlichen und steuerlichen Pflichten aufbewahrt.
-
-## 9. Datenschutz von Kindern
-
-Zifka Habits richtet sich nicht an Kinder. Wir erheben nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren (bzw. unter 16 Jahren, sofern lokal vorgeschrieben). Wenn Sie glauben, dass ein Kind uns Daten übermittelt hat, schreiben Sie an **privacy@zifka.com**, und wir löschen sie.
-
-## 10. Änderungen dieser Erklärung
-
-Wir können diese Datenschutzerklärung aktualisieren. Wesentliche Änderungen werden durch Aktualisierung des Datums „Zuletzt aktualisiert" kenntlich gemacht. Die aktuelle Fassung ist stets unter **https://zifka.com/habits/privacy** verfügbar.
-
-## 11. Kontakt
-
-- **Datenschutz / DSGVO:** privacy@zifka.com
-- **Support:** support@zifka.com
-- **Richtlinien-URL:** https://zifka.com/habits/privacy
-
----
-
-© 2026 Zifka. Alle Rechte vorbehalten.
+Die Apps richten sich an Erwachsene. Fragen oder Hinweise zu Daten eines Kindes: privacy@zifka.com. Bei E-Mails erhalten wir Absenderadresse, Nachricht und gewählte Anhänge; senden Sie keine Passwörter, Bank- oder Kartendaten. Änderungen veröffentlichen wir mit Datum in der App und unter https://darsantiago.github.io/zifka-legal/. Verantwortlich: Saribot SAS, Bogotá, Kolumbien. Datenschutz: privacy@zifka.com. Rechtliches: legal@zifka.com.

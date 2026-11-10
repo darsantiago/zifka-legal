@@ -1,91 +1,33 @@
-# Política de Privacidad — Zifka Habits
+# Política de privacidad — Zifka One
 
-**Última actualización:** 6 de julio de 2026
+**Actualización: 2026-11-10. Aplicable a Budget, Subs y Habits.**
 
-## 1. Responsable del Tratamiento
+## 1. Responsable y datos locales
 
-Zifka Habits es desarrollada y publicada por **Zifka** («nosotros» o «la aplicación»). Respetamos su privacidad y nos comprometemos a proteger sus datos personales conforme al Reglamento General de Protección de Datos de la UE (RGPD) y a la Ley Federal Suiza de Protección de Datos (nLPD).
+Saribot SAS, Bogotá, Colombia, publica estas aplicaciones. No necesita una cuenta Zifka. Budget guarda cuentas, movimientos y presupuestos; Subs, servicios recurrentes y recordatorios; Habits, hábitos, finalizaciones, rachas y preferencias. No operamos un servidor de sincronización de estos registros. Al exportar, compartir o enviar información a soporte, usted elige el destinatario y los datos enviados.
 
-Para cualquier solicitud relacionada con la privacidad, escríbanos a **privacy@zifka.com**.
+## 2. Protección y copias
 
-## 2. Datos que Recopilamos
+Budget y Subs usan bases Hive cifradas. Habits usa Isar con cifrado de campos seleccionados; esto no cifra toda la base. Las bóvedas se cifran por separado. Las claves usan almacenamiento seguro de plataforma, como Android Keystore o iOS Keychain; no se garantiza Secure Enclave para todas las claves. Preferencias, metadatos, diagnósticos locales y exportaciones CSV/PDF/JSON ordinarias no están todos cifrados por la aplicación. Elija una copia cifrada cuando se ofrezca y proteja su contraseña. Las copias ya exportadas quedan bajo el control de los servicios o destinatarios elegidos.
 
-### 2.1 Datos que Usted Crea (almacenados en su dispositivo)
-- Nombres de hábitos, íconos, categorías, frecuencias y fechas de completación
-- Rachas, logros y progreso
-- Configuraciones y preferencias (tema, idioma, horarios de notificaciones)
-- Archivos de respaldo cifrados que usted crea voluntariamente
+## 3. Resúmenes entre aplicaciones
 
-### 2.2 Datos que NO Recopilamos
-- NO recopilamos su nombre, correo ni credenciales de cuenta para usar la app
-- NO rastreamos su ubicación
-- NO vendemos, alquilamos ni comercializamos sus datos personales
-- NO usamos publicidad ni rastreadores de análisis de terceros
+En Android, las aplicaciones Zifka instaladas pueden intercambiar resúmenes de saldos, suscripciones y hábitos mediante proveedores que verifican paquete y firma. Cada aplicación mantiene sus claves y almacenamiento propios. En iOS, la lectura entre aplicaciones está deshabilitada hasta disponer de un canal autenticado; el grupo de cada widget es privado de su aplicación.
 
-## 3. Base Legal del Tratamiento (Art. 6 RGPD)
+## 4. Compras y servicios externos
 
-- **Ejecución de un contrato:** para ofrecer las funciones principales que usted solicita.
-- **Consentimiento:** para los permisos opcionales del dispositivo (cámara, calendario, salud, Face ID) y las notificaciones locales. Puede retirar su consentimiento en cualquier momento en los ajustes del dispositivo.
-- **Interés legítimo:** para mantener la app segura y en correcto funcionamiento.
+Apple o Google procesa el pago. No recibimos el número completo de su tarjeta. RevenueCat procesa historial/recibos de compra, permisos de acceso, un identificador seudónimo de usuario de la aplicación e información técnica de las solicitudes. Puede conectar al inicializarse, actualizar permisos, comprar o restaurar. Seudónimo no significa ausencia de datos personales. RevenueCat ofrece análisis de compras; esto no implica subir sus registros financieros o hábitos. El código revisado no establece identificadores publicitarios ni atributos de contacto en RevenueCat. Consulte https://www.revenuecat.com/privacy y las políticas de su tienda. No vendemos sus registros ni usamos un SDK publicitario para crear perfiles de anuncios.
 
-## 4. Almacenamiento Local y Cifrado
+## 5. Diagnósticos y permisos
 
-- Todos los datos de hábitos se almacenan **localmente** en su dispositivo mediante la base de datos Isar.
-- Los respaldos se cifran con **AES-256-GCM** antes de salir de la aplicación.
-- Sus datos nunca llegan a nuestros servidores. No operamos ningún backend en la nube que almacene sus datos de hábitos.
-- Los datos permanecen en su dispositivo hasta que usted los elimine o desinstale la app.
+El cliente de analítica actual solo escribe en consola en compilaciones de depuración; no tiene un servicio configurado de envío de analítica de producto. CrashReportService conserva un registro local limitado, que puede ver, copiar o borrar. No existe envío automático de fallos por una opción de consentimiento. Compartirlo o enviarlo a soporte es decisión suya. Las notificaciones y alarmas sirven para recordatorios. El bloqueo biométrico recibe el resultado del sistema, no su huella o plantilla facial. La selección de archivos usa controles del sistema. No ofrecemos cámara, calendario o integración de salud solo por existir una descripción de permiso o un modelo.
 
-## 5. Permisos del Dispositivo y su Propósito
+La entrada por voz es opcional y exclusiva de Budget: solicita micrófono/reconocimiento del sistema. El proveedor puede procesar el audio en línea según dispositivo, idioma y ajustes; no se garantiza funcionamiento siempre local. Puede denegar el permiso e introducir movimientos manualmente.
 
-Todos los permisos son **opcionales** y se solicitan solo cuando usa la función correspondiente:
+## 6. Derechos, conservación y borrado
 
-- **Notificaciones:** para enviar recordatorios locales de hábitos, programados íntegramente en el dispositivo.
-- **Cámara:** solo si decide adjuntar una foto a un hábito o registro.
-- **Calendario:** solo para sincronizar recordatorios con su calendario, si lo activa.
-- **Datos de salud:** solo para leer/escribir métricas de hábitos de salud que usted configure.
-- **Face ID / biometría:** solo para bloquear la app localmente. Los datos biométricos nunca salen de su dispositivo y son gestionados por el sistema operativo.
+Puede consultar, corregir y exportar sus registros; «Borrar todos los datos» elimina el estado local. No borra copias externas, registros de tienda o datos de RevenueCat, ni cancela una suscripción antigua o solicita un reembolso. Para acceso, rectificación, supresión u otros derechos aplicables, escriba a privacy@zifka.com indicando aplicación, plataforma y solicitud. Pediremos solo la información mínima necesaria para localizar y verificar el registro y coordinaremos con RevenueCat cuando corresponda. Los registros de tienda, soporte u obligaciones legales, fraude y disputas pueden requerir tratamiento o conservación separados; explicaremos los límites aplicables. Puede acudir a su autoridad competente de protección de datos. No prometemos un plazo universal de conservación ni borrado instantáneo de terceros.
 
-## 6. Servicios de Terceros
+## 7. Contacto y cambios
 
-Compartimos los datos mínimos necesarios con:
-
-- **RevenueCat:** gestiona el estado de las suscripciones. Procesa un identificador de compra seudonimizado, no sus datos de hábitos. Consulte la política de privacidad de RevenueCat.
-- **Apple App Store / Google Play (compras integradas):** procesan pagos y gestionan suscripciones bajo sus propias políticas de privacidad.
-
-**No** compartimos sus datos de hábitos con ningún tercero.
-
-## 7. Sus Derechos
-
-Conforme al RGPD y a la nLPD, usted tiene derecho a:
-- **Acceder** a sus datos (use la función de exportación de la app)
-- **Rectificar** datos inexactos
-- **Suprimir** sus datos (borrar datos en ajustes o desinstalar la app)
-- **Portabilidad de los datos** (exportación a JSON/CSV)
-- **Oponerse** o **limitar** el tratamiento
-- **Retirar el consentimiento** en cualquier momento
-
-Para ejercer estos derechos, escriba a **privacy@zifka.com**. También puede presentar una reclamación ante su autoridad de protección de datos (en Suiza, el PFPDT).
-
-## 8. Conservación de los Datos
-
-- **Datos locales:** se conservan en su dispositivo hasta que los elimine o desinstale la app.
-- **Respaldos:** se conservan donde usted decida almacenarlos, bajo su control.
-- **Registros de compra:** los conservan Apple, Google y RevenueCat según sus obligaciones legales y fiscales.
-
-## 9. Privacidad de los Menores
-
-Zifka Habits no está dirigida a menores. No recopilamos intencionadamente datos personales de menores de 13 años (o de 16 años cuando lo exija la ley local). Si cree que un menor nos ha proporcionado datos, escriba a **privacy@zifka.com** y los eliminaremos.
-
-## 10. Cambios en esta Política
-
-Podemos actualizar esta Política de Privacidad. Los cambios importantes se indicarán actualizando la fecha de «Última actualización». La versión vigente está siempre disponible en **https://zifka.com/habits/privacy**.
-
-## 11. Contacto
-
-- **Privacidad / RGPD:** privacy@zifka.com
-- **Soporte:** support@zifka.com
-- **URL de la política:** https://zifka.com/habits/privacy
-
----
-
-© 2026 Zifka. Todos los derechos reservados.
+Las aplicaciones están dirigidas a adultos. Para datos de un menor o consultas de privacidad, escriba a privacy@zifka.com. Si nos escribe, recibimos el correo, mensaje y adjuntos que envíe; no envíe contraseñas, datos bancarios ni de tarjetas. Publicaremos los cambios con su fecha en la aplicación y en https://darsantiago.github.io/zifka-legal/. Responsable: Saribot SAS, Bogotá, Colombia. Privacidad: privacy@zifka.com. Asuntos legales: legal@zifka.com.

@@ -1,62 +1,33 @@
-# Termos de Serviço — Zifka Habits
+# Termos de serviço — Zifka One
 
-**Última atualização:** 6 de julho de 2026
+**Atualização: 2026-11-10. Aplicáveis a Budget, Subs e Habits.**
 
-## 1. Aceitação dos Termos
+## 1. Editora e licença
 
-Ao utilizar o Zifka Habits («o aplicativo»), publicado pela **Zifka**, você aceita estes Termos de Serviço. Se não concordar, por favor não utilize o aplicativo.
+A Saribot SAS, Bogotá, Colômbia, publica os apps. Ao usá-los, você aceita estes termos, respeitados os direitos obrigatórios do consumidor. A licença pessoal e não exclusiva cobre as funções compradas nos dispositivos e contas familiares permitidos pela loja. Não use os apps ilegalmente, viole propriedade intelectual nem contorne controles de acesso. Direitos legais irrenunciáveis continuam válidos.
 
-## 2. Licença de Utilização
+## 2. Teste local de sete dias
 
-Concedemos-lhe uma licença pessoal, limitada, não exclusiva, intransmissível e revogável para utilizar o Zifka Habits em dispositivos que você possua ou controle, para uso pessoal e não comercial.
+A primeira instalação oferece **7 dias** de funções desbloqueadas sem conta Zifka, cartão ou cobrança automática. Sem compra, o app passa a somente leitura ao final: os registros continuam visíveis e a exportação CSV/PDF gratuita. Esse teste local não inicia assinatura de loja com renovação automática.
 
-Você compromete-se a NÃO:
-- utilizar o app para fins ilícitos
-- fazer engenharia reversa, descompilar ou modificar o app
-- tentar obter acesso não autorizado a qualquer parte do serviço
-- revender, redistribuir ou partilhar funcionalidades pagas com terceiros
+## 3. Compras atuais e direitos anteriores
 
-## 3. Subscrições e Renovação Automática
+As novas ofertas são **compras únicas vitalícias**: **USD $9.99** pelo Pro de um app ou **USD $19.99** pelos três apps Zifka One. Moeda local, impostos e disponibilidade podem variar; vale o preço de confirmação da loja. O compartilhamento familiar do pacote depende da plataforma e configuração. Pro individual não libera os outros apps.
 
-- As funcionalidades premium estão disponíveis através de uma subscrição de renovação automática, oferecida numa base mensal ou anual.
-- As subscrições são vendidas e faturadas através da **App Store da Apple** ou do **Google Play**, e geridas pela **RevenueCat**.
-- O preço é apresentado antes de confirmar a compra. O valor é cobrado na sua conta da loja no momento da confirmação.
-- As subscrições **renovam-se automaticamente**, salvo se desativar a renovação automática pelo menos 24 horas antes do fim do período atual.
-- Faça a gestão ou cancele a sua subscrição a qualquer momento nas definições da sua conta na **App Store** ou no **Google Play**. O cancelamento impede cobranças futuras; o acesso continua até ao fim do período pago.
+«Vitalício» significa licença com pagamento único das funções adquiridas, não compatibilidade perpétua com qualquer dispositivo/sistema futuro, todos os produtos futuros ou serviços externos indefinidos. Não cria novas cobranças recorrentes. Direitos mensais/anuais antigos já adquiridos podem ser verificados e restaurados; **não são oferecidos novos planos mensais/anuais**. Gerencie renovação ou cancelamento de assinatura antiga na loja original. Desinstalar ou apagar dados não a cancela.
 
-## 4. Teste Gratuito
+## 4. Pagamento, restauração e reembolso
 
-Se for oferecido um teste gratuito, este converte-se numa subscrição paga, salvo cancelamento antes do fim do teste. Qualquer parte não utilizada de um teste gratuito é perdida ao adquirir uma subscrição.
+Apple App Store ou Google Play processa o pagamento; RevenueCat verifica o acesso. Restaure com a conta original quando a loja permitir. Reembolsos e cancelamentos seguem procedimentos da loja e legislação obrigatória. Ajuda: legal@zifka.com. Não são excluídos direitos legais de reembolso, arrependimento ou outros irrenunciáveis.
 
-## 5. Reembolsos
+## 5. Registros e terceiros
 
-Os reembolsos são geridos pela **Apple** ou pela **Google** de acordo com as políticas da App Store ou do Google Play. Não podemos emitir reembolsos diretamente por compras efetuadas através destas lojas. Os consumidores da UE/EEE podem ter direitos de livre resolução adicionais previstos na lei.
+Você conserva os direitos sobre seus registros. Mantenha cópias e confira exportações antes de apagar ou trocar de aparelho; nem toda exportação é criptografada. A Política de privacidade explica armazenamento, campos criptografados, RevenueCat, diagnósticos e reconhecimento de voz opcional do sistema. Compartilhar, abrir links ou falar com o suporte pode revelar dados escolhidos por você. A ajuda para cancelar serviço cadastrado não cancela seu contrato com o fornecedor.
 
-## 6. Propriedade Intelectual
+## 6. Ferramentas informativas e limites
 
-O aplicativo, incluindo o seu código, design, gráficos, logótipos e marcas, é propriedade da **Zifka** e está protegido pelas leis de propriedade intelectual. Você mantém todos os direitos sobre os dados de hábitos que cria; concede-nos apenas os direitos limitados necessários para operar as funcionalidades do app no seu dispositivo.
+SafeSpend, previsões, avisos e hábitos são ferramentas organizacionais, não aconselhamento financeiro, de investimento, tributário, jurídico ou médico. Não garantimos resultados financeiros ou de saúde. Funcionamento e disponibilidade dependem da versão compatível, dispositivo, sistema e serviços externos. Nos limites da lei, os apps são fornecidos conforme disponibilidade; nenhuma exclusão limita garantias obrigatórias ou responsabilidade não excluível, inclusive fraude ou dolo. Proteja e faça backup de seus registros.
 
-## 7. Exclusão de Garantias
+## 7. Alterações, lei e contato
 
-O aplicativo é fornecido **«tal como está»** e **«conforme disponível»**, sem garantias de qualquer tipo. Não garantimos um funcionamento ininterrupto, isento de erros nem resultados específicos. O Zifka Habits é uma ferramenta de produtividade e **não** constitui aconselhamento médico; consulte um profissional qualificado para questões de saúde.
-
-## 8. Limitação de Responsabilidade
-
-Na máxima medida permitida por lei, a Zifka não será responsável por danos indiretos, incidentais ou consequentes, incluindo a perda de dados. A nossa responsabilidade total não excederá o valor que você pagou pelo app nos 12 meses anteriores à reclamação. Faça backups regulares.
-
-## 9. Lei Aplicável
-
-Estes Termos regem-se pelas leis da Suíça, sem prejuízo das regras de conflito de leis e das normas imperativas de proteção do consumidor do seu país de residência.
-
-## 10. Alterações aos Termos
-
-Podemos atualizar estes Termos periodicamente. A utilização continuada após a entrada em vigor das alterações constitui aceitação dos Termos atualizados.
-
-## 11. Contacto
-
-- **Suporte:** support@zifka.com
-- **Privacidade:** privacy@zifka.com
-
----
-
-© 2026 Zifka. Todos os direitos reservados.
+Mudanças relevantes serão datadas no app ou em https://darsantiago.github.io/zifka-legal/, respeitando avisos e direitos obrigatórios. Aplica-se a lei colombiana sem afastar proteções e direitos de foro irrenunciáveis de sua residência. Editora: Saribot SAS, Bogotá, Colômbia. Jurídico: legal@zifka.com. Privacidade: privacy@zifka.com.
